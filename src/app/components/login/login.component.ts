@@ -1,17 +1,11 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import {faLock} from '@fortawesome/free-solid-svg-icons';
+import { Component } from '@angular/core';
+
 @Component({
   selector: 'app-login',
-  imports: [RouterLink],
+  imports: [],
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrl: './login.component.css'
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
 
-
-constructor() { }
-ngOnInit(): void {
-
-}
 }

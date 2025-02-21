@@ -5,7 +5,7 @@ import { AdminRoutingModule } from './admin-routing.module';
 import { AdminDashboardComponent } from './components/admin-dashboard/admin-dashboard.component';
 import { HomeComponent } from './components/home/home.component';
 import { RouterLink } from '@angular/router';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -14,6 +14,7 @@ import { RouterLink } from '@angular/router';
     AdminDashboardComponent,
     HomeComponent,
     RouterLink,
+    FormsModule
  
   ],
   
