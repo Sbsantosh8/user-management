@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { RouterOutlet,RouterLink } from '@angular/router';
 
 import {
@@ -14,7 +14,7 @@ import { FooterComponent } from "./modules/admin/components/footer/footer.compon
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ReactiveFormsModule, RouterLink, HeaderComponent, FooterComponent],
+  imports: [RouterOutlet, ReactiveFormsModule, RouterLink, HeaderComponent, FooterComponent,ReactiveFormsModule ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
