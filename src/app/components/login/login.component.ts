@@ -153,8 +153,8 @@ export class LoginComponent {
       this.authService.login(username, password).subscribe((success) => {
         if (success) {
           this.router.navigate(['/admin/home']);
-        //   window.location.href = "https://www.antllp.com/"; // Redirect to dashboard after login
-        // } else {
+      
+        } else {
           alert('Invalid Credentials');
         }
       });
